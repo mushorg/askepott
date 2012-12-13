@@ -18,4 +18,12 @@ Updated: December 13, 2012
 	license@php.net so we can mail you a copy immediately.
 
 */
+
+// Prevent direct file access to the firewall
+if(preg_match("#^askepott.php#", basename($_SERVER['PHP_SELF']))) {
+	exit();
+}
+
+
+
 ?>
