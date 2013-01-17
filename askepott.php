@@ -469,8 +469,8 @@ function askepott_submenu() {
 							foreach($ips as $ip) {
 								if($ip != '') {
 									echo '<input type="text" value="' . $ip . '" name="whitelisted_ip[]" /><br />';
-								}
 							}
+								}
 						}
 						echo  '<input type="text" value="" name="whitelisted_ip[]" /><br />';
 					}
@@ -542,35 +542,6 @@ function askepott_submenu() {
 
 function askepott_show_plugin_link() { ?>
 	<div style="margin:30px 0 20px; text-align:right;">
-		<small>Modifications to this plugin by <a href="http://matthewpavkov.com" target="_blank">Matthew Pavkov</a>.<br />Please use the <a href="http://wordpress.org/tags/wordpress-firewall-2?forum_id=10" target="_blank">Wordpress Plugin Forum</a> to report bugs, suggestions, etc.</small>
-		<br /><br />
-		<small>Original plugin by <a href="http://www.seoegghead.com/software/" target="_blank">SEO Egghead</a>.</small>
-		<!--
-		<a href="http://www.seoegghead.com/software/wordpress-firewall.seo" style="text-decoration:none;" target="_blank">
-		<?php if(preg_match('#MSIE#', $_SERVER['HTTP_USER_AGENT']) == 0) { ?>
-			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAUCAMAAA
-			BxjAnBAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBQTFRFz6Ol
-			opmRs21w48/P+Pb218bF9Orr6OTit7CpqVpdqaGZrmJlvYCD0ry769vc////wFM5SwAAAB
-			B0Uk5T////////////////////AOAjXRkAAAJLSURBVHjatFXtDiMhCERF3Q/R93/bGxDX
-			Xu5Pr2lJNk7pVHQYujS+FImov09Ng75VmM4zvU+V7xVu583vU7sVZo/CG7+kDRcL27qs4J
-			VWfJ+N/+GMzdi7cAQVhfm4PEJlcXjUkVf64CHxtogySnN8N64Ppn6erc10Gd3zERQn3DGN
-			ZIQGKq5LQ8ITnB+Y6073dK5oTBtDsxWUH3gmXGlF33nytFIFhfkKV68avSpOQDhLwhmk9t
-			6vECoKUEpJtHA8bwFWg5T7jHlifZSSsXnBORtwArWWZIEdREUBvYAK/1MJ4bC6aAhumRkQ
-			ResRLusW1oKmDJxBj1pMJ3OmCiET36Wdkadxon1XwNcc6+G76tTFfT+ptCWVkVAwGb7qFQ
-			5lQYRDm1JdRhTPy8Tz6EPNUvVsaqpoHbh5dqEVW+e5QC9KuY1KnK+nxTKfoCLg8rqTrmkW
-			xAZ/FfOjDxWhuxC2RuuI0oXcGTNldKfSGhuVVh8PXNz+iHS1Yj4Ubf+a/ZaquLgQKqd1w8
-			cIxSrGFHqR33Q4lbIHJIWsQeYn9fqBVWA3lauRBWNcb6ymOAootnO5jNregu/ipCfQDWIH
-			1c2wWk6Ze2oSP/CApx78Mh3McxXzj7cdLa0uo8qpV/KQsoes7Jk0Kh0rEvR98CjiMDMG3w
-			MKioFqhqWJo3qoWYtt9TyiD1mw8U7Psfjoj5m9X2Ob5b9fKp+9A1+KiU/zbwvn6ZqozpQH
-			958X3j6Ly2c2pj8vXB5/VLyCFi7j9zeWGQSvF/IP6ZMLjz8CDACmemOuUH7ZzQAAAABJRU
-			5ErkJggg==" alt="" />
-		<?php } ?>
-		<br />
-		<small>Click here for plugin documentation.</small>
-		</a><br />
-		<small>Got Questions or Feedback? <a style="text-decoration:none;" href="http://www.seoegghead.com/about/contact-us.seo?subject=WP+Firewall+Feedback" target="_blank">Click here.</a></small>
-		<br />
-		<small>By using this plugin you agree to <a style="text-decoration:none;" href="http://www.seoegghead.com/software/free-software-disclaimer.seo" target="_blank">this simple disclaimer</a>.</small>
-		-->
+		<small>Original plugin by <a href="http://www.seoegghead.com/software/" target="_blank">SEO Egghead</a> and <a href="http://matthewpavkov.com" target="_blank">Matthew Pavkov</a>.</small>
 	</div>
 <?php } ?>
