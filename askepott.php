@@ -542,6 +542,7 @@ function askepott_submenu() {
 
 function askepott_show_plugin_link() { ?>
 	<div style="margin:30px 0 20px; text-align:right;">
+		<p>Please report all issues on the project page: <a href="https://github.com/glastopf/askepott" target="_blank">Askepott</a>.</p>
 		<small>Original plugin by <a href="http://www.seoegghead.com/software/" target="_blank">SEO Egghead</a> and <a href="http://matthewpavkov.com" target="_blank">Matthew Pavkov</a>.</small>
 	</div>
 <?php } ?>
